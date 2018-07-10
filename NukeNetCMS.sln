@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukeNetCMS.Common", "NukeNetCMS.Common\NukeNetCMS.Common.csproj", "{AAD64ED9-2CCF-4B0C-B639-14CF4F521430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukeNetCMS.Model", "NukeNetCMS.Model\NukeNetCMS.Model.csproj", "{920902CC-6E05-47EB-A205-E6E33938E573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukeNetCMS.Data", "NukeNetCMS.Data\NukeNetCMS.Data.csproj", "{05B4622A-F54E-422F-8C88-4BD0851E9E62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukeNetCMS.Service", "NukeNetCMS.Service\NukeNetCMS.Service.csproj", "{E76DB747-BC09-4FB6-9011-B493D12EB3DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukeNetCMS.Web", "NukeNetCMS.Web\NukeNetCMS.Web.csproj", "{4B1059D1-8730-4504-859E-0DF55474991F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukeNetCMS.UnitTest", "NukeNetCMS.UnitTest\NukeNetCMS.UnitTest.csproj", "{040BFE64-9911-405F-9406-F335997327AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NukeNetCMS.Resources", "NukeNetCMS.Resources\NukeNetCMS.Resources.csproj", "{05C79670-724B-4DC3-AD95-693543FDECC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAD64ED9-2CCF-4B0C-B639-14CF4F521430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD64ED9-2CCF-4B0C-B639-14CF4F521430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD64ED9-2CCF-4B0C-B639-14CF4F521430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD64ED9-2CCF-4B0C-B639-14CF4F521430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920902CC-6E05-47EB-A205-E6E33938E573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920902CC-6E05-47EB-A205-E6E33938E573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920902CC-6E05-47EB-A205-E6E33938E573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920902CC-6E05-47EB-A205-E6E33938E573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B4622A-F54E-422F-8C88-4BD0851E9E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B4622A-F54E-422F-8C88-4BD0851E9E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B4622A-F54E-422F-8C88-4BD0851E9E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B4622A-F54E-422F-8C88-4BD0851E9E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E76DB747-BC09-4FB6-9011-B493D12EB3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E76DB747-BC09-4FB6-9011-B493D12EB3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E76DB747-BC09-4FB6-9011-B493D12EB3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E76DB747-BC09-4FB6-9011-B493D12EB3DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B1059D1-8730-4504-859E-0DF55474991F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B1059D1-8730-4504-859E-0DF55474991F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B1059D1-8730-4504-859E-0DF55474991F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B1059D1-8730-4504-859E-0DF55474991F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{040BFE64-9911-405F-9406-F335997327AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040BFE64-9911-405F-9406-F335997327AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040BFE64-9911-405F-9406-F335997327AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040BFE64-9911-405F-9406-F335997327AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C79670-724B-4DC3-AD95-693543FDECC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C79670-724B-4DC3-AD95-693543FDECC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C79670-724B-4DC3-AD95-693543FDECC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C79670-724B-4DC3-AD95-693543FDECC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
