@@ -40,6 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\ActiveStatus.cs" />
+    <Compile Include="Enums\OrderStatus.cs" />
+    <Compile Include="Enums\PaymentTransactionStatus.cs" />
+    <Compile Include="Enums\StarStatus.cs" />
+    <Compile Include="Enums\VisibilityStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
