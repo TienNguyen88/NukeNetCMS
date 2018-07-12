@@ -14,6 +14,7 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(50)]
+        [Column(TypeName = "varchar")]
         public string Code { get; set; }
 
         [Required]

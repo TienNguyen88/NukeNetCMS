@@ -22,6 +22,7 @@ namespace NukeNetCMS.Model.Models
         public string URL { get; set; }
 
         [MaxLength(10)]
+        [Column(TypeName = "varchar")]
         public string Target { get; set; }
 
         public bool IsActive { get; set; }

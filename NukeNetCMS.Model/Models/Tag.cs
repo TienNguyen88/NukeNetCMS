@@ -9,6 +9,7 @@ namespace NukeNetCMS.Model.Models
     {
         [Key]
         [MaxLength(100)]
+        [Column(TypeName = "varchar")]
         public string ID { get; set; }
 
         [Required]

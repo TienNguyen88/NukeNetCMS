@@ -16,10 +16,8 @@ namespace NukeNetCMS.Model.Models
 
         public DateTime? VisitedDate { get; set; }
 
-        [MaxLength(50)]
-        public string VisitedBy { get; set; }
-
         [MaxLength(20)]
+        [Column(TypeName = "varchar")]
         public string IPAddress { get; set; }
 
         [MaxLength(250)]

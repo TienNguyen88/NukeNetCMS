@@ -13,7 +13,7 @@ namespace NukeNetCMS.Model.Models
         [MaxLength(128)]
         public string UserID { get; set; }
 
-        public int ProductID { get; set; }
+        public int PostID { get; set; }
 
         [Required]
         public string Comment { get; set; }
@@ -22,6 +22,7 @@ namespace NukeNetCMS.Model.Models
 
         public bool IsActive { get; set; }
 
+        [ForeignKey("PostID")]
         public virtual Post Post { get; set; }
     }
 }

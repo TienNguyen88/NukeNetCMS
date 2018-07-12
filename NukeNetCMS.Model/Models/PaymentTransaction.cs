@@ -15,6 +15,7 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(250)]
+        [Column(TypeName = "varchar")]
         public string TransactionCode { get; set; }
 
         [MaxLength(250)]
@@ -22,6 +23,7 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(20)]
+        [Column(TypeName = "varchar")]
         public string CardID { get; set; }
 
         [Required]
@@ -30,19 +32,23 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(2)]
+        [Column(TypeName = "varchar")]
         public string CardExpireMonth { get; set; }
 
         [Required]
         [MaxLength(2)]
+        [Column(TypeName = "varchar")]
         public string CardExpireYear { get; set; }
 
         [MaxLength(50)]
+        [Column(TypeName = "varchar")]
         public string CardCVV { get; set; }
 
         [MaxLength(100)]
         public string BankName { get; set; }
 
         [MaxLength(250)]
+        [Column(TypeName = "varchar")]
         public string Token { get; set; }
 
         public DateTime? TokenExpire { get; set; }

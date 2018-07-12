@@ -13,6 +13,7 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(2)]
+        [Column(TypeName = "varchar")]
         public string Language { get; set; }
 
         [Required]
@@ -26,6 +27,7 @@ namespace NukeNetCMS.Model.Models
         public string Skype { get; set; }
 
         [MaxLength(20)]
+        [Column(TypeName = "varchar")]
         public string Mobile { get; set; }
 
         [MaxLength(100)]

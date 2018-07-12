@@ -34,10 +34,12 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(100)]
+        [Column(TypeName = "varchar")]
         public string CustomerEmail { get; set; }
 
         [Required]
         [MaxLength(20)]
+        [Column(TypeName = "varchar")]
         public string CustomerMobile { get; set; }
 
         [MaxLength(500)]
@@ -47,6 +49,7 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(50)]
+        [Column(TypeName = "varchar")]
         public string Status { get; set; }
 
         [ForeignKey("ShippingID")]

@@ -14,6 +14,7 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(2)]
+        [Column(TypeName = "varchar")]
         public string Language { get; set; }
 
         public int? ParentID { get; set; }
@@ -24,7 +25,6 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(500)]
-        [Column(TypeName = "varchar")]
         public string Slug { get; set; }
 
         [MaxLength(500)]
@@ -51,6 +51,7 @@ namespace NukeNetCMS.Model.Models
         public bool IsHome { get; set; }
 
         [MaxLength(50)]
+        [Column(TypeName = "varchar")]
         public string Taxonomy { get; set; }
 
         [ForeignKey("ParentID")]

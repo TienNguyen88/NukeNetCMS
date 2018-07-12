@@ -14,6 +14,7 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(2)]
+        [Column(TypeName = "varchar")]
         public string Language { get; set; }
 
         [Required]

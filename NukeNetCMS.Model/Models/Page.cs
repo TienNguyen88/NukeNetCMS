@@ -14,6 +14,7 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(2)]
+        [Column(TypeName = "varchar")]
         public string Language { get; set; }
 
         [Required]
@@ -22,7 +23,6 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(250)]
-        [Column(TypeName = "varchar")]
         public string Slug { get; set; }
 
         public string Content { get; set; }
@@ -46,9 +46,11 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(50)]
+        [Column(TypeName = "varchar")]
         public string Visibility { get; set; }
 
         [MaxLength(50)]
+        [Column(TypeName = "varchar")]
         public string PasswordProtected { get; set; }
 
         public bool? IsTrash { get; set; }

@@ -15,6 +15,7 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(2)]
+        [Column(TypeName = "varchar")]
         public string Language { get; set; }
 
         public int? CategoryID { get; set; }
@@ -70,9 +71,11 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(50)]
+        [Column(TypeName = "varchar")]
         public string Visibility { get; set; }
 
         [MaxLength(50)]
+        [Column(TypeName = "varchar")]
         public string PasswordProtected { get; set; }
 
         public bool? IsTrash { get; set; }
