@@ -22,6 +22,7 @@ namespace NukeNetCMS.Model.Models
 
         [Required]
         [MaxLength(250)]
+        [Column(TypeName = "varchar")]
         public string Slug { get; set; }
 
         public string Content { get; set; }

@@ -9,7 +9,8 @@ namespace NukeNetCMS.Model.Models
         [Key, Column(Order = 0)]
         public int ProductID { get; set; }
 
-        [Key, Column(Order = 1)]
+        [Key, Column(Order = 1, TypeName = "varchar")]
+        [MaxLength(100)]
         public string TagID { get; set; }
 
         [ForeignKey("ProductID")]
