@@ -25,11 +25,17 @@ namespace NukeNetCMS.Data.Infrastructure
 
         T GetSingleByCondition(Expression<Func<T, bool>> expression, string[] includes = null);
 
+        T GetSingleByCondition(Expression<Func<T, bool>> expression, Expression<Func<T, object>>[] includes = null);
+
         IEnumerable<T> GetAll(string[] includes = null);
 
         IEnumerable<T> GetMulti(Expression<Func<T, bool>> predicate, string[] includes = null);
 
-        IEnumerable<T> GetMultiPaging(Expression<Func<T, bool>> filter, out int total, int index = 0, int size = 50, string[] includes = null);
+        IEnumerable<T> GetMulti(Expression<Func<T, bool>> predicate, Expression<Func<T, object>>[] includes = null);
+
+        IEnumerable<T> GetMultiPaging(Expression<Func<T, bool>> filter, out int total, int index = 0, int size = 10, string[] includes = null);
+
+        IEnumerable<T> GetMultiPaging(Expression<Func<T, bool>> filter, out int total, int index = 0, int size = 10, Expression<Func<T, object>>[] includes = null);
 
         int Count(Expression<Func<T, bool>> where);
 

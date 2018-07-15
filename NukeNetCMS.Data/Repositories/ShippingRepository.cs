@@ -3,7 +3,7 @@ using NukeNetCMS.Model.Models;
 
 namespace NukeNetCMS.Data.Repositories
 {
-    public interface IShippingRepository
+    public interface IShippingRepository : IRepository<Shipping>
     {
     }
 
